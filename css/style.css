@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Montserrat", serif;
+    font-size: 1.2em;
+}
+
+body{
+    background-color: rgb(221, 228, 203);
+    border: 5px solid black;
+    font-family:'"Montserrat"', serif;
+}
+
+
+header{
+    background-color: dimgray;
+    min-height:140px ;
+    text-align: center;
+}
+footer{
+    background-color: rgb(155, 155, 155);
+    min-height: 100px;
+    padding: 10px 50px;
+}
+
+.about{
+    background-color:  rgb(221, 228, 203);
+    padding-left: 50px; 
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.articles{
+    background-color: rgb(221, 228, 203);
+}
+h2{
+    text-align: center;
+
+}
+.фото2{
+    width: 15rem; 
+    display: block; /*делаем картинку блочным элеметом*/
+    margin: 0 auto;/* принимяем выравниванеие через внешнюю*/
+
+}
+h1{
+    font-size: 2.5rem;
+
+}
+p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.content{
+    padding: 10px 50px;
+}
+
+ a { /*1*/
+    color:rgb(36, 28, 28);
+    text-decoration: none;
+ }  
+    
+a:hover,
+a:focus{
+        color: red;
+        text-decoration: underline;
+}
+a:active{
+    color:cadetblue
+}
+
+a:visited{
+    color:rgb(0, 0, 0)
+}
+a:hover{
+    color: brown;
+}
+a:link{
+    color:rgb(0, 0, 0)
+}
+.articles a:hover,
+.articles a:focus{
+    color: rgb(139, 54, 54);
+    text-decoration: underline;
+}
+/*.articles li :first-child{
+    background-color: rgb(73, 73, 73) ;
+}/*
+/*h2::after{
+    content:"new";
+    font-size: 12px;
+    margin-left: 20px;
+    color:aquamarine;
+}*/
+.фото4{
+    width: 15rem; 
+    display: block;
+    margin: 0 auto;
+    border: black solid 2px;
+    box-shadow: 10px 5px 5px grey;
+}
+.фото3{
+    width: 15rem; 
+    display: block; 
+    margin: 0 auto;
+    border: black solid 2px;
+    box-shadow: 10px 5px 5px grey;
+}.фото1
+{
+    width: 15rem; 
+    display: block; 
+    margin: 0 auto;
+    border: black solid 2px;
+    box-shadow: 10px 5px 5px grey; 
+    border-radius:0%;
+}
+
+.dates{
+    border: 3px solid;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+.dates td,
+.dates th{
+    border: 1px solid royalblue;
+    padding: 5px 10px;
+}
+.dates tr:nth-child(2n){
+    background-color: cadetblue;
+    font-style: italic;
+}
+.dates td:nth-child(3){
+    text-align: center;
+}
+#example-form{
+    margin:  10px auto;
+    max-width: 300px;
+}
+input[type=submit]{
+    padding: 10px 20px;
+    background-color: rgb(162, 162, 162);
+    border: 1px solid darkcyan;
+    color: darkgreen;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    background-color: blue;
+    border: grey;
+    color: burlywood;
+}
+input[type=submit]:hover{
+    background-color: rgb(1, 1, 2);
+    border: rgb(20, 20, 20);
+    color: rgb(41, 39, 37);
+}
+input[type=email],
+input[type=password]{
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    width: 150px;
+    border-bottom: darkkhaki 1px solid;
+    color:rgb(105, 85, 125);
+}
+input[type=email]:hover,
+input[type=password]:hover{
+    background-color: rgb(161, 128, 78);
+}
+
+section{
+    padding: 10px 50px;
+}
+nav{
+    text-align: center;
+}
+.фото2{
+    width: 15rem; 
+    display: block; 
+    margin: 0 auto;
+    border: black solid 2px;
+    box-shadow: 10px 5px 5px grey;
+}
+nav ul li a {/*2*/
+    padding: 10px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: lightgray;
+    color: rgb(70, 70, 106);
+}
+.articles a { /*3*/
+    color: rgb(100, 148, 100);
+}
+
+.articles a:hover,
+.articles a:focus {
+    color: rgb(206, 175, 116);
+    text-decoration: underline;
+}
+.articles li:nth-child(odd) { /*4 */
+    background-color: #f0f0f0;
+}
+.before:before { /* 5*/
+content: "Важно!";
+border: 1px solid rgb(76, 116, 93);
+border-radius: 5px;
+color: rgb(80, 152, 122);
+margin-left: 3px;
+}
+p::first-line{ /*6*/
+    letter-spacing: 2px;
+}
+p:lang(en) { /*7 */
+    font-style: italic;
+    font-size: 30px;
+    color: gray;
+}
+#russian{ 
+    font-size: 30px;
+    background-color: rgb(152, 189, 169);
+    color: black;
+}
+.about,
+.darmoon,
+#content{/*8*/
+    color: darkgreen;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+footer img{/* 9*/
+    border: 1px solid black;
+    border-radius: 5px;
+}
+img + p { /* 10*/ 
+    margin-top: 20px;
+}
+body {
+    font-family: "Montserrat", serif;
+    font-size: 16px; 
+    line-height: 2; 
+    color: #000000; 
+    margin: 0;
+    padding: 20px; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 2.5em; 
+    text-decoration: underline; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+}
+h2 {
+    font-size: 1.5em;
+    text-decoration: italic; 
+    text-transform: capitalize; 
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2em;
+    text-decoration: none; 
+    font-weight: normal; 
+}
+h4 {
+    font-size: 1.5em;
+    font-style: italic; 
+}
+
+h5 {
+    font-size: 1.25em;
+    text-transform: lowercase; 
+}
+
+h6 {
+    font-size: 1em;
+    text-decoration: line-through; 
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+li{
+    font-size: 1.25em;
+}
+.content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+.articles{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+table{
+    width: 100%;
+    border-collapse:collapse ;
+}
+th,td{
+    border:1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(78, 126, 100);
+}
+tr:nth-child(odd){
+    background-color:rgb(240, 236, 203);
+}
+td:first-child{
+    background-color:rgb(110, 144, 115);
+}
+tr:last-child(odd){
+    background-color:rgb(82, 121, 92);
+}
+#contact-form input [type="text"]{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(88, 113, 86) solid 1px;
+    background-color: rgb(104, 135, 99);
+}
+#topic {
+    margin: 10px auto;
+    max-width: 300px;
+    padding: 10px 20px;
+    background-color: rgb(172, 193, 179);
+    border: 1px solid rgb(107, 172, 105);
+    color: rgba(255, 255, 255, 0.819);
+    border-radius: 5px;
+    width: 230px;
+}
+label {
+    font-size: 20px;
+    color:rgb(84, 133, 91);
+}
+#fdbck {
+    padding: 30px 40px;
+    background-color: rgb(172, 193, 179);
+    border: 1px solid rgb(107, 172, 105);
+    color: rgb(120, 176, 109,0.819);
+    border-radius: 10px;
+    height: 90px;
+    width: 150px;
+}
+#gender {
+    font-size: 20px;
+    color:rgb(84, 133, 91);;
+
+}
+#male, #female {
+    color:rgb(84,133,91);
+}
+#submitButton {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: italic;
+    height: 45px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(106, 165, 131) solid 100 px;
+    background-color: rgb(172, 193, 179);
+}
+#submitButton:hover {
+    background-color: #d8f0ff; 
+}
+#name, #mail1, #bday, #telephone {
+    background-color: rgb(172, 193, 179);
+    height: 25px;
+    width: 190px;
+    border-radius: 10px;
+    border:1px solid rgb(107, 172, 105); 
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+}
+textarea::placeholder{
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+}
